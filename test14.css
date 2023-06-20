@@ -1,0 +1,135 @@
+.group-child52 {
+  position: absolute;
+  top: 720px;
+  left: 324px;
+  background-color: var(--color-cadetblue-200);
+  width: 295px;
+  height: 720px;
+  transform: rotate(-180deg);
+  transform-origin: 0 0;
+}
+.transactions8 {
+  position: absolute;
+  top: 105px;
+  left: 43px;
+  line-height: 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+  cursor: pointer;
+}
+.vectors-icon16 {
+  position: absolute;
+  top: 609px;
+  left: 0;
+  width: 1280px;
+  height: 111px;
+}
+.search8 {
+  position: absolute;
+  top: 256px;
+  left: 43px;
+  line-height: 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: var(--color-darkturquoise);
+}
+.vectors-icon17 {
+  position: absolute;
+  top: 608px;
+  left: 0;
+  width: 1280px;
+  height: 111px;
+}
+.group-child53,
+.group-child54 {
+  position: absolute;
+  left: 0;
+  border-radius: var(--br-4xl);
+  width: 867px;
+}
+.group-child53 {
+  top: 6.53px;
+  background-color: var(--color-cadetblue-100);
+  filter: blur(20px);
+  height: 503.88px;
+}
+.group-child54 {
+  top: 0;
+  background-color: var(--color-white);
+  height: 516px;
+}
+.group-child55,
+.rectangle-parent26 {
+  position: absolute;
+  top: 44px;
+  left: 366px;
+  width: 867px;
+  height: 516px;
+}
+.group-child55 {
+  top: 539px;
+  left: 879px;
+  background-color: var(--color-cadetblue-200);
+  width: 478px;
+  height: 475px;
+  transform: rotate(-180deg);
+  transform-origin: 0 0;
+}
+.rectangle-parent25 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1280px;
+  height: 720px;
+}
+.balance8,
+.date8,
+.month-history7,
+.recent8,
+.transaction-type8,
+.week-history7 {
+  position: absolute;
+  top: 157px;
+  left: 43px;
+  line-height: 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+  cursor: pointer;
+}
+.balance8,
+.date8,
+.month-history7,
+.transaction-type8,
+.week-history7 {
+  top: 206px;
+}
+.date8,
+.month-history7,
+.transaction-type8,
+.week-history7 {
+  top: 103px;
+  left: 445px;
+}
+.month-history7,
+.transaction-type8,
+.week-history7 {
+  top: 155px;
+}
+.month-history7,
+.week-history7 {
+  top: 206px;
+}
+.month-history7 {
+  top: 258px;
+}
+.test14 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 720px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-14xl);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}

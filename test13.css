@@ -1,0 +1,109 @@
+.group-child59 {
+  position: absolute;
+  top: 720px;
+  left: 324px;
+  background-color: var(--color-cadetblue-200);
+  width: 295px;
+  height: 720px;
+  transform: rotate(-180deg);
+  transform-origin: 0 0;
+}
+.search10,
+.transactions10 {
+  position: absolute;
+  top: 255px;
+  left: 46px;
+  line-height: 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+  cursor: pointer;
+}
+.transactions10 {
+  top: 105px;
+  left: 43px;
+}
+.vectors-icon20 {
+  position: absolute;
+  top: 609px;
+  left: 0;
+  width: 1280px;
+  height: 111px;
+}
+.balance10 {
+  position: absolute;
+  top: 207px;
+  left: 43px;
+  line-height: 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: var(--color-darkturquoise);
+}
+.group-child60,
+.vectors-icon21 {
+  position: absolute;
+  top: 608px;
+  left: 0;
+  width: 1280px;
+  height: 111px;
+}
+.group-child60 {
+  top: 6.53px;
+  border-radius: var(--br-4xl);
+  background-color: var(--color-cadetblue-100);
+  filter: blur(20px);
+  width: 867px;
+  height: 503.88px;
+}
+.group-child61,
+.rectangle-parent30 {
+  position: absolute;
+  width: 867px;
+  height: 516px;
+}
+.group-child61 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-4xl);
+  background-color: var(--color-white);
+}
+.rectangle-parent30 {
+  top: 44px;
+  left: 366px;
+}
+.available-balance-15501 {
+  position: absolute;
+  top: 105px;
+  left: 535px;
+  font-size: var(--font-size-9xl);
+  line-height: 20px;
+  text-transform: capitalize;
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+}
+.rectangle-parent29 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1280px;
+  height: 720px;
+}
+.recent10 {
+  position: absolute;
+  top: 157px;
+  left: 43px;
+  line-height: 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+  cursor: pointer;
+}
+.test13 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 720px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-14xl);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}

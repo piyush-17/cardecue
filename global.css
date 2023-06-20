@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --font-montserrat: Montserrat;
+  --font-lexend-deca: "Lexend Deca";
+
+  /* font sizes */
+  --font-size-9xl: 28px;
+  --font-size-14xl: 33px;
+  --font-size-base: 16px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-cadetblue-100: #619eb4;
+  --color-cadetblue-200: #6e8f89;
+  --color-darkturquoise: #6aedff;
+
+  /* border radiuses */
+  --br-4xl: 23px;
+}

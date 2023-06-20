@@ -1,0 +1,186 @@
+.group-child {
+  position: absolute;
+  top: 720px;
+  left: 324px;
+  background-color: var(--color-cadetblue-200);
+  width: 295px;
+  height: 720px;
+  transform: rotate(-180deg);
+  transform-origin: 0 0;
+}
+.balance,
+.search,
+.transactions {
+  position: absolute;
+  top: 205px;
+  left: 46px;
+  line-height: 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+  cursor: pointer;
+}
+.search,
+.transactions {
+  top: 255px;
+}
+.transactions {
+  top: 105px;
+  left: 43px;
+}
+.vectors-icon {
+  position: absolute;
+  top: 609px;
+  left: 0;
+  width: 1280px;
+  height: 111px;
+}
+.recent {
+  position: absolute;
+  top: 156px;
+  left: 43px;
+  line-height: 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: var(--color-darkturquoise);
+}
+.group-item,
+.vectors-icon1 {
+  position: absolute;
+  top: 608px;
+  left: 0;
+  width: 1280px;
+  height: 111px;
+}
+.group-item {
+  top: 6.53px;
+  border-radius: var(--br-4xl);
+  background-color: var(--color-cadetblue-100);
+  filter: blur(20px);
+  width: 867px;
+  height: 503.88px;
+}
+.group-inner,
+.rectangle-group {
+  position: absolute;
+  width: 867px;
+  height: 516px;
+}
+.group-inner {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-4xl);
+  background-color: var(--color-white);
+}
+.rectangle-group {
+  top: 44px;
+  left: 366px;
+}
+.amount,
+.date,
+.transaction-type {
+  position: absolute;
+  top: 105px;
+  left: 680px;
+  font-size: var(--font-size-9xl);
+  line-height: 20px;
+  text-transform: capitalize;
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+}
+.amount,
+.date {
+  left: 1057px;
+}
+.date {
+  left: 424px;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1280px;
+  height: 720px;
+  font-size: var(--font-size-14xl);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}
+.aaaaaaaaa,
+.aaaaaaaaa1,
+.aaaaaaaaa2,
+.div,
+.div1,
+.div2,
+.div3,
+.div4,
+.div5 {
+  position: absolute;
+  top: 185px;
+  left: 410px;
+  line-height: 20px;
+  text-transform: capitalize;
+}
+.aaaaaaaaa,
+.aaaaaaaaa1,
+.aaaaaaaaa2,
+.div1,
+.div2,
+.div3,
+.div4,
+.div5 {
+  left: 715px;
+}
+.aaaaaaaaa1,
+.aaaaaaaaa2,
+.div1,
+.div2,
+.div3,
+.div4,
+.div5 {
+  left: 1090px;
+}
+.aaaaaaaaa1,
+.aaaaaaaaa2,
+.div2,
+.div3,
+.div4,
+.div5 {
+  top: 245px;
+  left: 410px;
+}
+.aaaaaaaaa1,
+.aaaaaaaaa2,
+.div3,
+.div4,
+.div5 {
+  left: 715px;
+}
+.aaaaaaaaa2,
+.div3,
+.div4,
+.div5 {
+  left: 1090px;
+}
+.aaaaaaaaa2,
+.div4,
+.div5 {
+  top: 305px;
+  left: 410px;
+}
+.aaaaaaaaa2,
+.div5 {
+  left: 715px;
+}
+.div5 {
+  left: 1090px;
+}
+.test12 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 720px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-9xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

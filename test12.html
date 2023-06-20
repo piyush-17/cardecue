@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+  <link rel="stylesheet" href="./global.css" />
+  <link rel="stylesheet" href="./test12.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend Deca:wght@400&display=swap" />
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-database.js"></script>
+
+</head>
+
+<body>
+  <div class="test12">
+    <div class="rectangle-parent">
+      <div class="group-child"></div>
+      <div class="balance" id="bALANCEText">BALANCE</div>
+      <div class="search" id="sEARCHText">SEARCH</div>
+      <div class="transactions" id="tRANSACTIONSText">TRANSACTIONS</div>
+      <img class="vectors-icon" alt="" src="./public/vectors.svg" />
+
+      <div class="recent">rECENT</div>
+      <img class="vectors-icon1" alt="" src="./public/vectors1.svg" />
+
+      <div class="rectangle-group">
+        <div class="group-item"></div>
+        <div class="group-inner"></div>
+      </div>
+      <div class="transaction-type">Transaction Type</div>
+      <div class="amount">Amount</div>
+      <div class="date">Date</div>
+    </div>
+    <div class="div">12/05/23</div>
+    <div class="aaaaaaaaa">aaaaaaaaa</div>
+    <div class="div1">100</div>
+    <div class="div2">12/05/23</div>
+    <div class="aaaaaaaaa1">aaaaaaaaa</div>
+    <div class="div3">100</div>
+    <div class="div4">12/05/23</div>
+    <div class="aaaaaaaaa2">aaaaaaaaa</div>
+    <div class="div5">100</div>
+  </div>
+
+  <script>
+    var bALANCEText = document.getElementById("bALANCEText");
+    if (bALANCEText) {
+      bALANCEText.addEventListener("click", function (e) {
+        window.location.href = "./test13.html";
+      });
+    }
+
+    var sEARCHText = document.getElementById("sEARCHText");
+    if (sEARCHText) {
+      sEARCHText.addEventListener("click", function (e) {
+        window.location.href = "./test14.html";
+      });
+    }
+
+    var tRANSACTIONSText = document.getElementById("tRANSACTIONSText");
+    if (tRANSACTIONSText) {
+      tRANSACTIONSText.addEventListener("click", function (e) {
+        window.location.href = "./test112.html";
+      });
+    }
+  </script>
+  <script>
+    // Initialize Firebase
+    var firebaseConfig = {
+      apiKey: "AIzaSyCKsUzGAGQECH1LHyMJYvB0Uv-6kfIxNtc",
+      authDomain: "rfidtest-b74fd.firebaseapp.com",
+      projectId: "rfidtest-b74fd",
+      storageBucket: "rfidtest-b74fd.appspot.com",
+      messagingSenderId: "517818093394",
+      appId: "1:517818093394:web:69fd2de8e4c3e153ea748b"
+    };
+    firebase.initializeApp(firebaseConfig);
+
+    // Get a reference to the database
+    var database = firebase.database().ref("user");
+    firebaseRef.once("balance", function (snapshot) {
+      var data = snapshot.val();
+    })
+  </script>
+</body>
+
+</html>
